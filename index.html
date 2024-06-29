@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions - Nahid Hasan</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 class="text-center mb-4 text-white bg-dark rounded-pill">JavaScript Functions</h1>
+
+        <div class="function-container mb-4">
+            <h2>Circuit Power</h2>
+            <div class="form-group">
+                <input type="number" class="form-control" id="voltage" placeholder="Enter voltage">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" id="current" placeholder="Enter current">
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-primary" onclick="showCircuitPower()">Calculate Power</button>
+            </div>
+            <p id="powerOutput" class="mt-2 text-center"></p>
+        </div>
+
+        <div class="function-container mb-4">
+            <h2>Find Max Number</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="maxNumbersInput" placeholder="Enter numbers separated by commas">
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-primary" onclick="showMaxNumber()">Find Max</button>
+            </div>
+            <p id="maxNumberOutput" class="mt-2 text-center"></p>
+        </div>
+
+        <div class="function-container mb-4">
+            <h2>Merge Arrays</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="array1Input" placeholder="Enter first array separated by commas">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="array2Input" placeholder="Enter second array separated by commas">
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-primary" onclick="showMergedArrays()">Merge Arrays</button>
+            </div>
+            <p id="mergedArrayOutput" class="mt-2 text-center"></p>
+        </div>
+
+        <div class="function-container mb-4">
+            <h2>Array Values Types</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="valuesTypesInput" placeholder="Enter values separated by commas. Ex- 1, 2, 'null', [] ">
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-primary" onclick="showArrayValuesTypes()">Show Types</button>
+            </div>
+            <p id="valuesTypesOutput" class="mt-2 text-center"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
